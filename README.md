@@ -11,7 +11,7 @@ Mostrare un menu di aiuto con tutti i comandi disponibili.
 
 Il software è testuale, quindi utilizzabile da riga di comando.
 
-# NOTE
+## NOTE
 Cerca di scrivere del buon codice organizzando le varie funzionalità in apposite funzioni.
 Prima di scrivere il codice, pensa a quali sono le migliori strutture dati da utilizzare: liste, tuple, dizionari, o combinazioni di esse come liste di dizionari.
 Il programma deve essere persistente, cioè le informazioni inserite dall'utente devono essere mantenute tra diverse esecuzioni del programma, per fare questo puoi utilizzare un file di testo scegliendo tu che tipo di codifica utilizzare per le informazioni.
@@ -20,7 +20,7 @@ Durante un acquisto, verifica che i prodotti acquistati siano effettivamente pre
 Durante l'aggiunta in magazzino, verifica se il prodotto da aggiungere è già presente magazzino, nel caso positivo aggiungi la quantità a quella già presente in magazzino, in questo caso non serve specificare di nuovo il prezzo di acquisto e di vendita, altrimenti registralo come un nuovo prodotto.
 Il profitto lordo è il totale delle vendite, cioè tutto ciò che i clienti hanno pagato, il profitto netto invece è pari al profitto lordo meno il costo di acquisto per i prodotti.
 
-# ESEMPIO DI INTERAZIONE CON IL PROGRAMMA (in grassetto l'input dell'utente)
+## ESEMPIO DI INTERAZIONE CON IL PROGRAMMA (in grassetto l'input dell'utente)
 
 
 Inserisci un comando: aiuto
@@ -117,7 +117,7 @@ chiudi: esci dal programma
 Inserisci un comando: chiudi
 Bye bye
 
-Punti importanti
+## Punti importanti
 Un progetto che non rispetta i seguenti punti verrà respinto
 
 
