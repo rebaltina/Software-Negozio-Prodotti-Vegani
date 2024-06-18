@@ -9,12 +9,21 @@ def create_file (filename, data):
 
 def read_file (filename):
     '''
-    :param filename: name of the file you want to read 
+    :param filename: name of the file you want to read
     '''
-    with open(filename, 'r') as in_file:
+    try:
+      
+      with open(filename, 'r') as in_file:
         data = json.load(in_file)
 
-    return data
+      return data
+
+    except FileNotFoundError:
+
+      print("file not found")
+
+      return {}
+
 
 def update_file (filename, new_data):
     '''
